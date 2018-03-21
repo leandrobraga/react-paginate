@@ -30,11 +30,10 @@ var PageView = function PageView(props) {
 
   return _react2.default.createElement(
     'li',
-    { className: cssClassName },
     _react2.default.createElement(
       'a',
       { onClick: onClick,
-        className: linkClassName,
+        className: linkClassName + '' + cssClassName,
         href: href,
         tabIndex: '0',
         'aria-label': ariaLabel,
