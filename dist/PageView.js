@@ -30,6 +30,7 @@ var PageView = function PageView(props) {
 
   return _react2.default.createElement(
     'li',
+    { className: '' },
     _react2.default.createElement(
       'a',
       { onClick: onClick,
