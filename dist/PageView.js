@@ -34,7 +34,7 @@ var PageView = function PageView(props) {
     _react2.default.createElement(
       'a',
       { onClick: onClick,
-        className: linkClassName + '' + cssClassName,
+        className: cssClassName ? linkClassName + ' ' + cssClassName : linkClassName,
         href: href,
         tabIndex: '0',
         'aria-label': ariaLabel,
